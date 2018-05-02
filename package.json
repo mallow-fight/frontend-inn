@@ -1,0 +1,35 @@
+{
+  "name": "frontend-inn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:dev": "webpack --config webpack.config.js --mode=development --watch",
+    "build:pro": "webpack --config webpack.config.js --mode=production --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mallow-fight/frontend-inn.git"
+  },
+  "author": "mallow <861674705@qq.com> (http://www.mallowfight.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mallow-fight/frontend-inn/issues"
+  },
+  "homepage": "https://github.com/mallow-fight/frontend-inn#readme",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "redux": "^4.0.0",
+    "redux-thunk": "^2.2.0",
+    "webpack": "^4.6.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^2.1.2"
+  }
+}
